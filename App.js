@@ -8,9 +8,8 @@ import {
   TextInput,
   TouchableOpacity,
   Keyboard,
-
 } from 'react-native';
-import Task from './Components/task';
+import Task from "/Components/Task";
 
 export default function App() {
   const [task, setTask] = useState();
